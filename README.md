@@ -14,3 +14,8 @@ Please follow the below Details step to make it worked
     -advanced-configurationtest : is the deployement name.You can search the details of this deployment in GCP search             "Deployment manager"
   
   3.Read more : https://cloud.google.com/deployment-manager/docs/step-by-step-guide
+
+
+/*Most Important is the resource type in configuration */
+
+type: compute.v1.instance
